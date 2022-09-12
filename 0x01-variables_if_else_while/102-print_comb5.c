@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main
+ * main - Prints numbers between 00 to 99
  *
  * Return: Always 0 (Success)
  */
@@ -10,7 +10,7 @@ int main(void)
 	int i, e, g, h, op1, op2;
 
 	i = e = g = h = 48;
-	while(h < 58)
+	while (h < 58)
 	{
 		g = 48;
 		while (g < 58)
@@ -30,12 +30,13 @@ int main(void)
 						putchar(' ');
 						putchar(e);
 						putchar(i);
-						if (h == 57 && g == 56 && e == 57 && i == 57)
+						if (!(h == 57 && g == 56 && e == 57 && i == 57))
 						{
 							putchar(',');
 							putchar(' ');
 						}
-					}i++;
+					}
+					i++;
 				}
 				e++;
 			}
@@ -44,5 +45,5 @@ int main(void)
 		h++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
