@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints numbers between 0 to 99
+ * main - Prints numbers between 00 to 99
  *
  * Return: Always 0 (Success)
  */
@@ -30,7 +30,7 @@ int main(void)
 						putchar(' ');
 						putchar(e);
 						putchar(i);
-						if (h == 57 && g == 56 && e == 57 && i == 57)
+						if (!(h == 57 && g == 56 && e ==57 && i == 57))
 						{
 							putchar(',');
 							putchar(' ');
