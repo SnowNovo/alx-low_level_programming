@@ -8,9 +8,11 @@
 int main(void)
 {
 	int d, a, g;
+
 	d = 48;
 	a = 48;
 	g = 48;
+	
 	
 	while (a < 58)
 	{
