@@ -7,32 +7,36 @@
  */
 int main(void)
 {
-	int d = 48, a = 48, i = 48;
-
-	while (d < 58)
+	int d, a, g;
+	d = 48;
+	a = 48;
+	g = 48;
+	
+	while (a < 58)
 	{
-		a = 48
-			while (a < 58)
+		d = 48;
+		while (d < 58)
+		{
+			g = 48;
+			while (g < 58)
 			{
-				i = 48;
-				while (i < 58)
+				if (a != d && a != g && d != g && a < d && d < g)
 				{
-					if (d != a && a != i && d != i && d < a && a < i)
+					putchar(a);
+					putchar(d);
+					putchar(g);
+					if (d == 56 && a == 55 && g == 57)
 					{
-						putchar(d);
-						putchar(a);
-						putchar(i);
-						if (!(d == 55 && a == 56 && i = 57))
-						{
-							putchar(',');
-							putchar(' ');
-						}
+break;
 					}
-					i++;
+					putchar(',');
+					putchar(' ');
 				}
-				a++;
+				g++;
 			}
-		d++;
+			d++;
+		}
+		a++;
 	}
 	putchar('\n');
 
