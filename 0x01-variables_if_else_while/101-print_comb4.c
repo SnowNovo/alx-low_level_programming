@@ -11,7 +11,7 @@ int main(void)
 
 	d = 48;
 	a = 48;
-	g = 48;	
+	g = 48;
 	while (a < 58)
 	{
 		d = 48;
@@ -25,12 +25,12 @@ int main(void)
 					putchar(a);
 					putchar(d);
 					putchar(g);
-					if (d == 56 && a == 55 && g == 57)
+					if (!(d == 56 && a == 55 && g == 57))
+					
 					{
-break;
-					}
 					putchar(',');
 					putchar(' ');
+					}
 				}
 				g++;
 			}
