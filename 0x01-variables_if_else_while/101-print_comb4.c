@@ -11,9 +11,7 @@ int main(void)
 
 	d = 48;
 	a = 48;
-	g = 48;
-	
-	
+	g = 48;	
 	while (a < 58)
 	{
 		d = 48;
@@ -41,6 +39,5 @@ break;
 		a++;
 	}
 	putchar('\n');
-
 	return (0);
 }
