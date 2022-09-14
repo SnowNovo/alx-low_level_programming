@@ -1,3 +1,1 @@
-/**
- * main - prints the word _putchar
- */
+int main(void)
