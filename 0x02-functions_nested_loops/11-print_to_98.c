@@ -3,7 +3,7 @@
 
 /**
  * print_to_98 - prints all integers between the number given and 98
- * @n: numbe to count from
+ * @n: number to count from
  *
  * Return: void
  */
@@ -17,7 +17,7 @@ void print_to_98(int n)
 			printf("%d", n);
 			if (n != 98)
 			{
-				printf(",");
+				printf(", ");
 			}
 			n--;
 		}
@@ -29,7 +29,7 @@ void print_to_98(int n)
 			printf("%d", n);
 			if (n != 98)
 			{
-				printf(",");
+				printf(", ");
 			}
 			n++;
 		}
