@@ -3,6 +3,7 @@
 /**
  * times_table - function that prints times table for 9
  *
+ * Return: void
  */
 
 void times_table(void)
