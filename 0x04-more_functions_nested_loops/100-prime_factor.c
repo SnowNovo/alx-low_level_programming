@@ -2,13 +2,13 @@
 #include <math.h>
 
 /**
- * main - prints the largest prime factor of the number 612852475143
+ * main - prints the largest prime factorial of 612852475143
  *
- * Retuen: 0
+ * Return: 0
  */
 int main(void)
 {
-	lomg int max = -1, n= 612852475143;
+	long int max = -1, n= 612852475143;
 	int i = 3;
 
 	while (n % 2 == 0)
@@ -17,14 +17,16 @@ int main(void)
 		n /= 2;
 	}
 	while (i <= sqrt(n))
+	{
 		while (n % i == 0)
 		{
 			max = i;
 			n = n / i;
 		}
 	i +=2;
-}
-if (n > 2)
-	max = n;
+	}
+	if (n > 2)
+		max = n;
 	printf ("%ld\n", max);
 	return (0);
+}
