@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - prints line using "_" character of a n length
+ * print_line - prints line using '_' character of a n length
  * @n: length of the line
  *
  * Return: void
