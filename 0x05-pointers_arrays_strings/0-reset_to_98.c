@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 - changes the value of the variable 
+ * reset_to_98 - changes the value of the variable
  * that's pointed to by the arguement to 98
  * @n: pointer variable
  */
