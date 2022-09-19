@@ -15,7 +15,7 @@ int _atoi(char *s)
 
 	index = 0;
 	res = 0;
-	while (*(s + index) 1= '\0')
+	while (*(s + index) != '\0')
 	{
 		now = *(s + index);
 		if (now == '-')
