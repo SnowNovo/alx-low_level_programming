@@ -15,7 +15,7 @@ void reverse-aray(int *a, int n)
 		cond = n;
 	else
 		cond =(n - 1);
-	for (i = 0; i< cond / 2; i++)
+	for (i = 0; i < cond / 2; i++)
 	{
 		temp = a[i];
 		a[i] = a[n - 1];
